@@ -1,7 +1,7 @@
 import csv
 import pandas as pd 
 
-df = pd.read_csv("P130/total_stars.csv")
+df = pd.read_csv("total_stars.csv")
 # this didn't work :(
 for row in df:
     row.replace(","," ")
